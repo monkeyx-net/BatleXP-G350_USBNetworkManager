@@ -20,7 +20,7 @@ fi
 
 G=/sys/kernel/config/usb_gadget/usbnet
 STATE=/tmp/usbnet
-NETS="192.168.137 192.168.7"   # Windows ICS first, then direct link
+NETS="192.168.137 10.42.0 192.168.7"   # Windows ICS, Linux NM shared, direct
 
 say() { echo "[usbnet] $*"; }
 
